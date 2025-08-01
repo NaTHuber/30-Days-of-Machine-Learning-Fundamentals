@@ -1,6 +1,10 @@
-# Day 1. What is ML? Applications and key concepts
-## What is Machine Learning?
+# Day 01. What is ML? Applications and key concepts
 
+## Today's objetive 
+
+To understand what Machine Learning is, explore its main types and applications, and get familiar with the basic structure of an ML workflow.
+
+## What is Machine Learning?
 We can define Machine Learning (ML) as an subset of Artificial Intelillenge (AI). It focuses on bulding systems that learn from data to make predictions or decisions without being explicitly programmed. 
 
 > We can think of it as teaching a computer to recognize patterns and improve its performance through experiences (data and training)
@@ -43,7 +47,7 @@ Dimensionality Reduction| PCA (Principal Component Analysis), data visualization
 |Recommendation| Movies/Music suggestion|
 
 ## Small note 
-Machine Learning is not *magic*. It's math + data + computing. The magic is in the patterns we didn't see before, that the model heps reveal 🌱
+> Machine Learning is not *magic*. It's math + data + computing. The magic is in the patterns we didn't see before, that the model heps reveal 🌱
 
 
 
