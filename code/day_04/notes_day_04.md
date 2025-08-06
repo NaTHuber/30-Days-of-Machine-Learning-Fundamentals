@@ -65,7 +65,7 @@ print("Random integers:\n", np.random.randint(0, 10, (2, 3)))
 - _Handling missing data:_ 
     - `.dropna()` → Remove rows or columns with missing values.
     - `.fillna()` → Replace missing values with a specified value (mean, median, etc.).
-    
+
     Many ML algorithms cannot handle missing values — you must clean them before modeling.
 
 | Category        | Common Functions / Attributes                     | Example                               |
@@ -97,11 +97,34 @@ print("Mean age:", df['Age'].mean())
 **Why it’s important in ML:** It gives you a clean, unified way to train, evaluate, and deploy models.
 
 **Key features:**
-- Preprocessing (StandardScaler, OneHotEncoder, train_test_split)
-- Built-in datasets (load_iris, load_digits, fetch_california_housing)
-- Many algorithms (linear models, trees, clustering, etc.)
-- Evaluation metrics (accuracy_score, mean_squared_error)
-- Pipelines for chaining steps
+- _Preprocessing:_ Tools for preparing your data before modeling.
+    - StandardScaler: standardizes numerical features (zero mean, unit variance)
+    - OneHotEncoder: encodes categorical variables as binary columns
+    - train_test_split: splits data into training and testing subsets
+
+    Many ML models assume normalized inputs. Without preprocessing, models can perform poorly or overfit.
+
+- _Built-in datasets:_ Scikit-learn includes several real datasets for learning and testing models.
+    - `load_iris`: flower classification
+    - `load_digits`: handwritten digits (like MNIST)
+    - `fetch_california_housing`: regression dataset
+    
+    These datasets let practice without needing to search for external files.
+
+- _Many algorithms:_ Scikit-learn provides clean implementations of most popular ML algorithms
+    - Classification: LogisticRegression, KNeighborsClassifier, DecisionTreeClassifier
+    - Regression: LinearRegression, Ridge, Lasso
+    - Clustering: KMeans, DBSCAN
+
+- _Evaluation metrics:_ Functions to assess how well your model performs:
+    - `accuracy_score`: for classification tasks
+    - `mean_squared_error`: for regression tasks
+    - others: `f1_score`, `roc_auc_score`, `confusion_matrix`, etc.
+
+    Metrics let you quantify performance and compare models objectively.
+
+- _Pipelines for chaining steps:_ A way to bundle preprocessing and modeling into a single object.
+The pipeline runs all steps in sequence, making your code cleaner and more reproducible. Pipelines ensure that data transformations are applied consistently to training and test sets, and make it easier to tune models.
 
 | Category      | Common Functions / Classes                                         | Example                                                                     |
 | ------------- | ------------------------------------------------------------------ | --------------------------------------------------------------------------- |
