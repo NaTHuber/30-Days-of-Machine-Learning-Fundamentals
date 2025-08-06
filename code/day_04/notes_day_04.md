@@ -46,11 +46,27 @@ print("Random integers:\n", np.random.randint(0, 10, (2, 3)))
 
 **Key features:**
 
-- Series (1D) and DataFrame (2D)
-- Reading/writing data (read_csv, to_csv, read_excel, etc.)
-- Selection & filtering (.loc, .iloc)
-- Aggregation and grouping (groupby)
-- Handling missing data (.dropna, .fillna)
+- _Series (1D) and DataFrame (2D):_ 
+    - Series. One-dimensional labeled array (like one column in Excel).
+    - DataFrame. Two-dimensional labeled table (like a spreadsheet) made up of multiple Series.
+    
+    Pandas gives us a human-friendly way to store, inspect, and manipulate datasets before converting them into NumPy arrays for modeling.
+
+- _Reading/writing data:_ Functions to load and save data in different formats (CSV, Excel, JSON, SQL, etc.). Most datasets are stored in files — Pandas makes it easy to import/export them with one line.
+
+- _Selection & filtering:_
+    - `.loc` → Select by labels (row/column names).
+    - `.iloc` → Select by integer position (row/column indexes).
+
+    Lets you extract subsets of your dataset for analysis, feature selection, or debugging.
+
+- _Aggregation and grouping (groupby):_ Groups rows based on a column and applies summary functions like mean, sum, count, etc. Useful for exploratory data analysis (EDA) — understanding distributions and relationships in your data.
+
+- _Handling missing data:_ 
+    - `.dropna()` → Remove rows or columns with missing values.
+    - `.fillna()` → Replace missing values with a specified value (mean, median, etc.).
+    
+    Many ML algorithms cannot handle missing values — you must clean them before modeling.
 
 | Category        | Common Functions / Attributes                     | Example                               |
 | --------------- | ------------------------------------------------- | ------------------------------------- |
