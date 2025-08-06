@@ -159,4 +159,4 @@ print("Accuracy:", accuracy_score(y_test, y_pred))
 ```
 ---
 ## Small note 
-> It's not necessary to memorize every function now — just get familiar with which and where things live in each library. This cheat sheet will be a quick reference.
+> It's not necessary to memorize every function now — just get familiar with which and where things live in each library. This cheat sheet will be a quick reference 🌱
