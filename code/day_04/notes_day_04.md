@@ -3,6 +3,32 @@
 Understand and practice NumPy, Pandas, and Scikit-learn, the core Python libraries for data manipulation and analysis. 
 
 ---
+```mermaid
+mindmap
+  root((**Some ML Libraries**))
+    
+    NumPy
+      N-dimensional arrays ndarray
+      Broadcasting for arithmetic
+      Linear algebra
+      Random generation
+      Boolean masking
+
+    Pandas
+      Series 1D & DataFrame 2D
+      Read/Write data
+      Selection & Filtering
+      Aggregation & Grouping
+      Missing Data Handling
+
+    Scikit-learn
+      Preprocessing
+      Datasets
+      Algorithms
+      Evaluation Metrics
+      Pipelines
+```
+---
 
 ## NumPy – Numerical Python
 **Purpose:** Fast numerical computation using arrays and matrices.
