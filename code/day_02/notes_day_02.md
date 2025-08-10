@@ -1,6 +1,6 @@
 # Day 02. Types of Machine Learning: Supervised, Unsupervised, and Reinforcement Learning
 
-## Today's objetive
+## Today's objective
 Understand the three main types of Machine Learning: Supervised, Unsupervised, and Reinforcement Learning by exploring their key characteristics, use cases, and examples.
 
 ## Supervised, Unsupervised, and Reinforcement Learning

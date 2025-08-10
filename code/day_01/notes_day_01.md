@@ -1,6 +1,6 @@
 # Day 01. What is ML? Applications and key concepts
 
-## Today's objetive 
+## Today's objective 
 
 To understand what Machine Learning is, explore its main types and applications, and get familiar with the basic structure of an ML workflow.
 

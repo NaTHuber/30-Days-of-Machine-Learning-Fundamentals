@@ -1,5 +1,5 @@
 # Day 05. Data exploration with Pandas 
-## Today's objetive 
+## Today's objective 
 To explore and understand the structure, distribution, and relationships in your dataset using Pandas. This step helps uncover patterns, spot anomalies, and generate hypotheses for modeling.
 
 ## What is EDA? 

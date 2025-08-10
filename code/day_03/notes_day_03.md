@@ -1,5 +1,5 @@
 # Day 03. Data collection and preparation.
-## Today's objetive
+## Today's objective
 Understand the process of collecting and preparing data for machine learning, ensuring it is clean, relevant, and ready for modeling.
 
 ---

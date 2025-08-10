@@ -1,5 +1,5 @@
 # Day 04. Libraries: NumPy, Pandas, Scikit-learn (Deep Dive)
-## Today's objetive 
+## Today's objective 
 Understand and practice NumPy, Pandas, and Scikit-learn, the core Python libraries for data manipulation and analysis. 
 
 ---
