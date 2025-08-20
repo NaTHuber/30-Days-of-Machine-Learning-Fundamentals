@@ -58,4 +58,4 @@ print(df_fill)
 We've already done this process in the past few days, but I hope it's now clearer why and how to do it.
 
 ## Small note 
-> In machine learning, improper handling of missing values can introduce bias or cause your model to fail. A good practice is to keep a copy of the original data so you can revisit your cleaning decisions later.
+> In machine learning, improper handling of missing values can introduce bias or cause your model to fail. A good practice is to keep a copy of the original data so you can revisit your cleaning decisions later 🌱
