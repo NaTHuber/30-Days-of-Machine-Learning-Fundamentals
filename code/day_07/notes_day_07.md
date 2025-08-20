@@ -6,6 +6,34 @@ Understand how to transform categorical and numerical data into formats that mac
 
 ## Encoding Categorical Data
 
+```mermaid
+  mindmap
+  root((Encoding & Normalization))
+    Encoding
+      Label Encoding
+        Assign numbers to categories
+        Risk of implying order
+      One-Hot Encoding
+        Binary columns
+        Safe for nominal categories
+      Ordinal Encoding
+        Use when categories have order
+    Normalization
+      Min-Max Scaling
+        Scale to 0,1
+        Formula: x - min / max - min
+        Good for neural networks
+    Standardization
+      Z-score
+        Mean = 0, Std = 1
+        Formula: x - μ / σ
+        Good for regression, SVM
+    Importance
+      ML models need numbers
+      Avoid bias from scale differences
+      Essential preprocessing step
+```
+
 **Why? ML models need numbers, not text.**
 
 **Techniques**
@@ -37,3 +65,4 @@ Understand how to transform categorical and numerical data into formats that mac
 
 ## Small note 
 > Encoding and normalization are data preprocessing essentials. Without them, many ML algorithms either fail or give biased results. Think of them as “translators” that make raw human-readable data understandable to mathematical models 🌱
+
