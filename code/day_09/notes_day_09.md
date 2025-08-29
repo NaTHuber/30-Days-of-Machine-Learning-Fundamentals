@@ -2,6 +2,7 @@
 ## Today's objective 
 Learn the basics of Linear Regression, one of the simplest and most widely used algorithms in machine learning, used to model the relationship between variables.
 
+## What is Linear regression?
 Linear regression tries to find the best-fitting straight line that explains the relationship between an independent variable $X$ and a dependent variable $y$.
 
 - Simple Linear Regression: One feature (1D line).
@@ -25,6 +26,17 @@ The model is usually fitted using **Ordinary Least Squares** (OLS), which minimi
 In python you can use 
 ```python
 from sklearn.linear_model import LinearRegression
+```
+## Workflow 
+```mermaid 
+flowchart TD
+
+A[Dataset] --> B[Split into Train/Test]
+B --> C[Train Model with Linear Regression]
+C --> D[Model learns coefficients β]
+D --> E[Predict on Test Data]
+E --> F[Evaluate Performance: RMSE, R², Residuals]
+F --> G[Visualization: Scatter + Regression Line]
 ```
 
 ## Small note 
